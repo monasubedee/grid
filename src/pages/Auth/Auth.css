@@ -1,0 +1,43 @@
+.auth {
+  height: 100vh;
+  background-color: #ccc;
+}
+
+.authContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.formContainer {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 3px;
+}
+.formContainer .input {
+  outline: 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 780px) {
+  .formContainer .input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 470px) {
+  .formContainer {
+    width: 300px;
+  }
+  .formContainer .input {
+    width: 85%;
+  }
+}

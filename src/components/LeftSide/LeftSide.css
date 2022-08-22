@@ -1,0 +1,7 @@
+.leftSideContainer {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.buttonContainer {
+  margin-top: 30px;
+}
